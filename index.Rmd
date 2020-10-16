@@ -36,53 +36,178 @@ Aquí viene el texto explicativo.
 
 Seguido por la lista de opciones para descargar:
 
-1. Datos 1
+<br>
+1. Distritos
+
+[<img src="input/descarga_mapa.png" width= 14.8%  align = "left" />](https://github.com/alternativas-bolivia/mapas_pucarani/tree/main/06.%20Pucarani)
+<br><br>
 
 ```{r }
 
 
-list(mtcars, iris) %>%
+rio::import("output/excel/pucarani/distritos.xlsx") %>%
   download_this(
-    output_name = "mtcars and iris datasets",
+    output_name = "distritos",
     output_extension = ".xlsx",
-    button_label = "Download datasets as xlsx",
-    button_type = "warning",
+    button_label = "Descargar datos como xlsx",
+    button_type = "primary",
     has_icon = TRUE,
     icon = "fa fa-save"
   )
 ```
 
-2. Datos 2
+<br>
+2. Mercados Destino
+
+
+[<img src="input/descarga_mapa.png" width= 14.8%  align = "left" />](https://github.com/alternativas-bolivia/mapas_pucarani/tree/main/06.%20Pucarani)
+<br><br>
 
 ```{r }
 
 
-list(mtcars, iris) %>%
+rio::import("output/excel/pucarani/mercados_destino.xlsx") %>%
   download_this(
-    output_name = "mtcars and iris datasets",
+    output_name = "mercados_destino",
     output_extension = ".xlsx",
-    button_label = "Download datasets as xlsx",
-    button_type = "warning",
+    button_label = "Descargar datos como xlsx",
+    button_type = "primary",
     has_icon = TRUE,
     icon = "fa fa-save"
   )
 ```
 
-3. Datos 3
+<br>
+3. Mercados
+
+
+[<img src="input/descarga_mapa.png" width= 14.8%  align = "left" />](https://github.com/alternativas-bolivia/mapas_pucarani/tree/main/06.%20Pucarani)
+<br><br>
+
 
 ```{r }
 
 
-list(mtcars, iris) %>%
+rio::import("output/excel/pucarani/mercados.xlsx") %>%
   download_this(
-    output_name = "mtcars and iris datasets",
+    output_name = "mercados",
     output_extension = ".xlsx",
-    button_label = "Download datasets as xlsx",
-    button_type = "warning",
+    button_label = "Descargar datos como xlsx",
+    button_type = "primary",
     has_icon = TRUE,
     icon = "fa fa-save"
   )
 ```
+
+<br>
+4. Pobreza Extrema
+
+
+[<img src="input/descarga_mapa.png" width= 14.8%  align = "left" />](https://github.com/alternativas-bolivia/mapas_pucarani/tree/main/06.%20Pucarani)
+<br><br>
+
+
+```{r }
+
+
+rio::import("output/excel/pucarani/pobreza_extrema.xlsx") %>%
+  download_this(
+    output_name = "pobreza_extrema",
+    output_extension = ".xlsx",
+    button_label = "Descargar datos como xlsx",
+    button_type = "primary",
+    has_icon = TRUE,
+    icon = "fa fa-save"
+  )
+```
+
+<br>
+5. Rubros por Sector
+
+
+[<img src="input/descarga_mapa.png" width= 14.8%  align = "left" />](https://github.com/alternativas-bolivia/mapas_pucarani/tree/main/06.%20Pucarani)
+<br><br>
+
+```{r }
+
+
+rio::import("output/excel/pucarani/rubros_sectores.xlsx") %>%
+  download_this(
+    output_name = "rubros_sectores",
+    output_extension = ".xlsx",
+    button_label = "Descargar datos como xlsx",
+    button_type = "primary",
+    has_icon = TRUE,
+    icon = "fa fa-save"
+  )
+```
+
+<br>
+6. Sectores
+
+
+[<img src="input/descarga_mapa.png" width= 14.8%  align = "left" />](https://github.com/alternativas-bolivia/mapas_pucarani/tree/main/06.%20Pucarani)
+<br><br>
+
+
+```{r }
+
+
+rio::import("output/excel/pucarani/sectores.xlsx") %>%
+  download_this(
+    output_name = "sectores",
+    output_extension = ".xlsx",
+    button_label = "Descargar datos como xlsx",
+    button_type = "primary",
+    has_icon = TRUE,
+    icon = "fa fa-save"
+  )
+```
+
+<br>
+7. Rutase de Acceso
+
+
+[<img src="input/descarga_mapa.png" width= 14.8%  align = "left" />](https://github.com/alternativas-bolivia/mapas_pucarani/tree/main/06.%20Pucarani)
+<br><br>
+
+
+```{r }
+
+
+rio::import("output/excel/pucarani/rutas.xlsx") %>%
+  download_this(
+    output_name = "rutas_acceso",
+    output_extension = ".xlsx",
+    button_label = "Descargar datos como xlsx",
+    button_type = "primary",
+    has_icon = TRUE,
+    icon = "fa fa-save"
+  )
+```
+
+<br>
+8. Rubros
+
+
+[<img src="input/descarga_mapa.png" width= 14.8%  align = "left" />](https://github.com/alternativas-bolivia/mapas_pucarani/tree/main/06.%20Pucarani)
+<br><br>
+
+
+```{r }
+
+
+rio::import("output/excel/pucarani/rubros.xlsx") %>%
+  download_this(
+    output_name = "rubros",
+    output_extension = ".xlsx",
+    button_label = "Descargar datos como xlsx",
+    button_type = "primary",
+    has_icon = TRUE,
+    icon = "fa fa-save"
+  )
+```
+
 
 
 Descripción Proyecto
